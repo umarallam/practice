@@ -1,0 +1,211 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    /* display: flex;
+    align-items: center; */
+    position: relative;
+}
+.navigation::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.logo img {
+    height: 35px;
+    width: 35px;
+    margin: 4px auto 0px auto;
+}
+
+.logo {
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    color: aliceblue;
+
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 5.9rem;
+    flex-wrap: wrap;
+}
+
+.list li a {
+    text-decoration: none;
+    padding: 0rem 1rem;
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin: 2px;
+}
+
+.list li a:hover {
+    background-color: aliceblue;
+    border-radius: 2px;
+    color: black;
+}
+
+.list input {
+    position: absolute;
+    float: right;
+    top: 56px;
+    right: 50px;
+
+}
+
+.welcome h1 {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.welcome p {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.welcome::before {
+    content: " ";
+    position: absolute;
+    background: url(/bg1.jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+.signup {
+    padding: 1.1rem 1.2rem;
+    margin: 1.4rem;
+    border-radius: 20px;
+}
+
+.signup:hover {
+    background-color: black;
+    color: aliceblue;
+    transform: scale(2);
+}
+
+.bag img {
+    height: 200px;
+    width: 150px;
+}
+
+.bag {
+    border: 2px solid black;
+    text-align: center;
+    width: 190px;
+    padding: 6px;
+}
+
+.bags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+#menu {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.products {
+    position: relative;
+
+}
+
+.Products::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(pexels-alessio-cesario-1906879.jpg);
+    z-index: -1;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    position: relative;
+
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 9rem;
+    padding: 0.6rem;
+    z-index: 4;
+
+}
+
+.contact::before {
+    content: "";
+    background: url(contact\ us.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin: 0%;
+    padding: 0%;
+}
+
+.formbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.group label {
+    display: block;
+}
+
+#age input {
+    width: 136px;
+}
+
+#city select {
+    width: 10.8rem;
+}
+
+#delivery input {
+    width: 10.8rem;
+}
+
+.formbox button {
+    width: 10.8rem;
+}
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+}
